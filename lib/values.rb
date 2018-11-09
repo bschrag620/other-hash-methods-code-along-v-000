@@ -10,11 +10,11 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  list = []
+  final_list = []
   groceries.each do |category, list|
     list.each do |item|
       puts item
-      list << item
+      final_list << item
     end
   end
   list
