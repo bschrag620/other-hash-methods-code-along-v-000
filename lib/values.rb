@@ -13,6 +13,7 @@ def get_the_values(groceries)
   list = []
   groceries.each do |category, list|
     list.each do |item|
+      puts item
       list << item
     end
   end
