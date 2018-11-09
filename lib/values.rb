@@ -16,5 +16,5 @@ def get_the_values(groceries)
       final_list << item
     end
   end
-  list
+  final_list
 end
